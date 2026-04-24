@@ -4,6 +4,10 @@
 
 FinTrack is a comprehensive financial advisory platform built using a **Microservice Architecture Pattern**. It leverages the full **Spring Cloud** stack to demonstrate distributed configuration, service discovery, and fault tolerance in a high-stakes fintech environment.
 
+## 🌐 Live Demo
+- **Live API Portal**: [https://saanvirajput.github.io/fintrack-microservices/](https://saanvirajput.github.io/fintrack-microservices/)
+
+
 ## 🏗️ Service Mesh Architecture
 
 FinTrack is composed of multiple functional and infrastructure services working in concert:

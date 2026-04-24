@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FinTrack - Distributed Systems Portal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+  <div class="max-w-6xl mx-auto p-10">
+    <header class="mb-16 text-center">
+      <h1 class="text-5xl font-bold mb-4">💰 FinTrack Service Mesh</h1>
+      <p class="text-xl text-gray-400 text-teal-400">Advanced Distributed Financial Microservices</p>
+    </header>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+      <div class="bg-gray-800 p-6 rounded-xl border border-gray-700">
+        <h3 class="text-xl font-bold mb-2">Registry</h3>
+        <p class="text-gray-400">Eureka Service Discovery Hub</p>
+        <span class="mt-4 inline-block px-3 py-1 bg-green-900 text-green-400 rounded-full text-sm">Online</span>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl border border-gray-700">
+        <h3 class="text-xl font-bold mb-2">Auth Service</h3>
+        <p class="text-gray-400">OAuth2 Centralized Security</p>
+        <span class="mt-4 inline-block px-3 py-1 bg-green-900 text-green-400 rounded-full text-sm">Online</span>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl border border-gray-700">
+        <h3 class="text-xl font-bold mb-2">Account Service</h3>
+        <p class="text-gray-400">Core Financial Logic</p>
+        <span class="mt-4 inline-block px-3 py-1 bg-green-900 text-green-400 rounded-full text-sm">Online</span>
+      </div>
+    </div>
+
+    <div class="bg-gray-800 p-10 rounded-2xl border border-gray-700 shadow-2xl">
+      <h2 class="text-2xl font-bold mb-6">Interactive Architecture Flow</h2>
+      <div class="bg-black p-6 rounded-xl overflow-auto">
+        <pre class="text-green-500 font-mono text-sm">
+[System Boot Sequence]
+> Initializing Eureka Registry... Done
+> Loading Spring Cloud Config... Done
+> Starting 6 Functional Services...
+  - Account-Service: PORT 6000 [OK]
+  - Statistics-Service: PORT 7000 [OK]
+  - Notification-Service: PORT 8000 [OK]
+> Routing via Zuul Gateway... Active
+        </pre>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

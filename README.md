@@ -1,12 +1,12 @@
 # 💰 FinTrack: Advanced Distributed Financial Microservices
 
-![FinTrack Hero Banner](/home/raven/.gemini/antigravity/brain/0e34cd78-0977-463f-ad0b-5adbc09a1bac/fintrack_hero_banner_1777060816811.png)
+![FinTrack Hero Banner](./assets/fintrack_hero_banner_1777060816811.png)
 
 FinTrack is a comprehensive financial advisory platform built using a **Microservice Architecture Pattern**. It leverages the full **Spring Cloud** stack to demonstrate distributed configuration, service discovery, and fault tolerance in a high-stakes fintech environment.
 
 ## 🌐 Live Demo
-- **Live API Portal**: [https://saanvirajput.github.io/fintrack-microservices/](https://saanvirajput.github.io/fintrack-microservices/)
 
+- **Live API Portal**: [https://saanvirajput.github.io/fintrack-microservices/](https://saanvirajput.github.io/fintrack-microservices/)
 
 ## 🏗️ Service Mesh Architecture
 
